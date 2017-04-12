@@ -15,6 +15,7 @@
 		EA03A1C31E9E1BDC006FE105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA03A1C11E9E1BDC006FE105 /* LaunchScreen.storyboard */; };
 		EA03A1CE1E9E1BDC006FE105 /* WPGraphicButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA03A1CD1E9E1BDC006FE105 /* WPGraphicButtonTests.m */; };
 		EA03A1D91E9E1BDC006FE105 /* WPGraphicButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA03A1D81E9E1BDC006FE105 /* WPGraphicButtonUITests.m */; };
+		EA03A1EB1E9E20EC006FE105 /* UIButton+GraphicBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EA03A1EA1E9E20EC006FE105 /* UIButton+GraphicBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EA03A1D41E9E1BDC006FE105 /* WPGraphicButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPGraphicButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA03A1D81E9E1BDC006FE105 /* WPGraphicButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPGraphicButtonUITests.m; sourceTree = "<group>"; };
 		EA03A1DA1E9E1BDC006FE105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA03A1E91E9E20EC006FE105 /* UIButton+GraphicBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+GraphicBtn.h"; path = "../../../UIButton+GraphicBtn.h"; sourceTree = "<group>"; };
+		EA03A1EA1E9E20EC006FE105 /* UIButton+GraphicBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+GraphicBtn.m"; path = "../../../UIButton+GraphicBtn.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				EA03A1B71E9E1BDC006FE105 /* AppDelegate.m */,
 				EA03A1B91E9E1BDC006FE105 /* ViewController.h */,
 				EA03A1BA1E9E1BDC006FE105 /* ViewController.m */,
+				EA03A1E91E9E20EC006FE105 /* UIButton+GraphicBtn.h */,
+				EA03A1EA1E9E20EC006FE105 /* UIButton+GraphicBtn.m */,
 				EA03A1BC1E9E1BDC006FE105 /* Main.storyboard */,
 				EA03A1BF1E9E1BDC006FE105 /* Assets.xcassets */,
 				EA03A1C11E9E1BDC006FE105 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				EA03A1BB1E9E1BDC006FE105 /* ViewController.m in Sources */,
 				EA03A1B81E9E1BDC006FE105 /* AppDelegate.m in Sources */,
 				EA03A1B51E9E1BDC006FE105 /* main.m in Sources */,
+				EA03A1EB1E9E20EC006FE105 /* UIButton+GraphicBtn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +513,7 @@
 				EA03A1DF1E9E1BDC006FE105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA03A1E01E9E1BDC006FE105 /* Build configuration list for PBXNativeTarget "WPGraphicButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				EA03A1E21E9E1BDC006FE105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA03A1E31E9E1BDC006FE105 /* Build configuration list for PBXNativeTarget "WPGraphicButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				EA03A1E51E9E1BDC006FE105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
